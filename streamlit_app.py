@@ -188,7 +188,7 @@ def convert_string_to_number(string):
             number = number * 256 + ord(char)
     return(number)
 
-st.title("Personal Pithagorean Triangle")
+st.title("Personal Pythagorean Triangle")
 st.markdown("Type your name to the text box and get your personal Pythagorean triple.")
 container = st.container(border = True)
 with container:
